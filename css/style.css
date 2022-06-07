@@ -8,18 +8,39 @@ header {
     align-items: center;
     justify-content: center;
     height: 400px;
-    background: url('https://unsplash.com/photos/g2MossmxZNs/download?force=true&w=1920') bottom no-repeat;
+    background: url('https://cdn.pixabay.com/photo/2020/06/21/09/46/rainbow-5324147_960_720.jpg') center no-repeat;
     background-size: cover;
 }
 
 h1 {
-    color: #c6be94;
+    color: #cdcbce;
     font-size: 4rem;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.news {
+.new::before{
+    content: 'new';
+    color: #0011ff;
+    font-size: 2rem;
+}
+
+.new:nth-child(even)  {
     background-color: #fff;
+    padding: 50px 0 32px;
+}
+
+.new:nth-child(odd)  {
+    background-color: #136802;
+    padding: 50px 0 32px;
+}
+
+.news:nth-child(even)  {
+    background-color: #fff;
+    padding: 50px 0 32px;
+}
+
+.news:nth-child(odd)  {
+    background-color: #136802;
     padding: 50px 0 32px;
 }
 
