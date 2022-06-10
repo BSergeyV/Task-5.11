@@ -22,6 +22,7 @@ h1 {
     content: 'new';
     color: #0011ff;
     font-size: 2rem;
+    margin-right: 1rem;
 }
 
 .news:nth-child(even)  {
